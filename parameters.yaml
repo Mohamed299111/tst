@@ -1,0 +1,8 @@
+parameters:
+ ExampleParam:
+   name: example
+   in: query
+   description: An example parameter from another file
+   required: true
+   schema:
+     type: string
